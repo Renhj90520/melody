@@ -1,0 +1,969 @@
+{
+  "-version": "0.4",
+
+  "viewInfo": {
+    "viewScale": "1.6",
+    "displayMode": "paginated"
+  },
+  "scoreMetrics": {
+    "lineSize": "6",
+    "staffSpacing": "5.5",
+    "systemSpacing": "9.25",
+    "showMultipleHyphens": "true",
+    "hyphensMinPadding": "4",
+    "textProportional": "true",
+    "titleSize": "0.6",
+    "subtitleSize": "0.3",
+    "supertitleSize": "0.3",
+    "composerSize": "0.4",
+    "titlePagePromptSize": "0.3",
+    "copyrightSize": "0.24",
+    "pageNumberSize": "0.3",
+    "lyricsSize": "0.275",
+    "lyricsAboveStaffBottom": "6",
+    "lyricsBelowStaffTop": "-2",
+    "lyricsLineSpacing": "2",
+    "performanceTextSize": "0.3",
+    "chordSymbolSize": "0.32",
+    "showCopyrightOnAllPages": "false",
+    "indentationSpacing": "0",
+    "partDisplayRespectSystemBreaks": "false",
+    "layoutSpacing": "0",
+    "verticalAutoSpace": "true",
+    "centerChordSymbols": "false",
+    "keepChordSymbolsApart": "false",
+    "systemStretch": "5",
+    "musicFont": "default",
+    "autoMultiMeasureRestCreation": "false",
+    "titlePageFirstStaffPadding": "0",
+    "pageTopPadding": "0",
+    "showBarNumbers": "true",
+    "showBarNumbersOnEachMeasure": "false",
+    "showPartNames": "true",
+    "showChordDiagrams": "false",
+    "partNamePosition": "staff",
+    "showPartNamesOnEveryPage": "false",
+    "showTabRhythm": "true",
+    "standardFontSettings": {
+      "block": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.275"
+      },
+      "chordSymbol": {
+        "typeface": "SourceSansPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.32"
+      },
+      "composer": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.4"
+      },
+      "copyright": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.24"
+      },
+      "lyrics": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.275"
+      },
+      "measureNumber": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.25"
+      },
+      "pageNumber": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "partName": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "performanceText": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "prompt": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "subtitle": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "supertitle": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "tempoSymbol": {
+        "typeface": "SourceSansPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.22"
+      },
+      "title": {
+        "typeface": "SourceSerifPro",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.6"
+      }
+    },
+    "jazzFontSettings": {
+      "block": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.275"
+      },
+      "chordSymbol": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.5"
+      },
+      "composer": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "copyright": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.25"
+      },
+      "lyrics": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "measureNumber": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "pageNumber": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "partName": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "performanceText": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "prompt": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "subtitle": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "supertitle": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "tempoSymbol": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.3"
+      },
+      "title": {
+        "typeface": "AshText",
+        "italic": "false",
+        "bold": "false",
+        "size": "0.6"
+      }
+    }
+  },
+  "pageMetrics": {
+    "pageSize": "US Letter",
+    "orientation": "Portrait",
+    "pageMarginLeft": "18",
+    "pageMarginRight": "18",
+    "pageMarginTop": "16",
+    "pageMarginBottom": "16"
+  },
+  "performanceMetrics": {
+    "graceNoteBeatFraction": "0",
+    "graceNoteTime": "0.07"
+  },
+  "idCounter": "1",
+  "systemPart": {
+    "staff": {
+      "measure": [
+        {
+          "attributes": {
+            "timeSignature": {
+              "beats": "4",
+              "beatType": "4"
+            },
+            "keySignature": {
+              "fifths": "0",
+              "mode": "major"
+            },
+            "tempo": {
+              "value": "6",
+              "bpm": "120"
+            }
+          },
+          "notations": {
+            "timeSignature": {
+              "beats": "4",
+              "beatType": "4"
+            },
+            "tempo": {
+              "value": "6",
+              "bpm": "120"
+            },
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barlin": {
+              "position": "256"
+            }
+          }
+        },
+        {
+          "notations": {
+            "barline": {
+              "type": "final",
+              "position": "256"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "part": [
+    {
+      "id": "187f7135-9ce9-4563-8ea4-c828640a9ca1",
+      "name": "Piano",
+      "shortName": "Pno.",
+      "instrumentUri": "percussion/pitched/piano",
+      "fretboardType": "guitar",
+      "staff": [
+        {
+          "measure": [
+            {
+              "attributes": {
+                "clef": {
+                  "sign": "G",
+                  "note": "G4",
+                  "line": "1"
+                }
+              },
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "D4",
+                        "step": "D"
+                      }
+                    },
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "D4",
+                        "step": "D"
+                      },
+                      "position": "64"
+                    },
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "D4",
+                        "step": "D"
+                      },
+                      "position": "128"
+                    },
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "C#4",
+                        "step": "C",
+                        "accidental": "sharp"
+                      },
+                      "position": "192"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "C5",
+                        "step": "C"
+                      }
+                    },
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "A3",
+                        "step": "A"
+                      },
+                      "position": "64"
+                    },
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "B3",
+                        "step": "B"
+                      },
+                      "position": "128"
+                    },
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "C4",
+                        "step": "C"
+                      },
+                      "position": "192"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "6"
+                    },
+                    {
+                      "value": "6",
+                      "position": "64"
+                    },
+                    {
+                      "value": "7",
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "B4",
+                        "step": "B"
+                      }
+                    },
+                    {
+                      "value": "6",
+                      "position": "64"
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "B4",
+                        "step": "B"
+                      },
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "C5",
+                        "step": "C"
+                      }
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "C5",
+                        "step": "C"
+                      },
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "B4",
+                        "step": "B"
+                      }
+                    },
+                    {
+                      "value": "6",
+                      "position": "64"
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "B4",
+                        "step": "B"
+                      },
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "A4",
+                        "step": "A"
+                      }
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "D5",
+                        "step": "D"
+                      },
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "C5",
+                        "step": "C"
+                      }
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "C5",
+                        "step": "C"
+                      },
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "B4",
+                        "step": "B"
+                      }
+                    },
+                    {
+                      "value": "5",
+                      "note": {
+                        "pitch": "B4",
+                        "step": "B"
+                      },
+                      "position": "128"
+                    },
+                    {
+                      "value": "5",
+                      "position": "160"
+                    },
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "A3",
+                        "step": "A"
+                      },
+                      "position": "192"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "G4",
+                        "step": "G"
+                      }
+                    },
+                    {
+                      "value": "6",
+                      "position": "64"
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "A4",
+                        "step": "A"
+                      },
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            }
+          ]
+        },
+        {
+          "measure": [
+            {
+              "attributes": {
+                "clef": {
+                  "sign": "F",
+                  "note": "F3",
+                  "line": "3"
+                }
+              },
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "6",
+                      "note": {
+                        "pitch": "G3",
+                        "step": "G"
+                      },
+                      "tremolo": "1"
+                    },
+                    {
+                      "value": "6",
+                      "position": "64"
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "A3",
+                        "step": "A"
+                      },
+                      "position": "128"
+                    }
+                  ],
+                  "slur": {
+                    "span": "128",
+                    "endx": "0.65",
+                    "ascent": "0.5",
+                    "position": "128",
+                    "dx": "0.65",
+                    "dy": "5",
+                    "direction": "up"
+                  }
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "B3",
+                        "step": "B"
+                      }
+                    },
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "C4",
+                        "step": "C"
+                      },
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {
+                  "noteSet": [
+                    {
+                      "value": "7",
+                      "note": {
+                        "pitch": "D4",
+                        "step": "D"
+                      }
+                    },
+                    {
+                      "value": "7",
+                      "position": "128"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            },
+            {
+              "voices": {
+                "voice": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d545c96c-156f-499f-adb1-d81ead060c07",
+      "name": "Guitar",
+      "shortName": "Gtr.",
+      "instrumentUri": "strings/guitar/acoustic/classical/basic",
+      "octaveShift": "1",
+      "fretboardType": "guitar",
+      "staff": {
+        "measure": [
+          {
+            "attributes": {
+              "clef": {
+                "sign": "G",
+                "note": "G4",
+                "line": "1"
+              }
+            },
+            "voices": {
+              "voice": {
+                "noteSet": [
+                  {
+                    "value": "6",
+                    "note": {
+                      "pitch": "C4",
+                      "step": "C"
+                    }
+                  },
+                  {
+                    "value": "6",
+                    "note": {
+                      "pitch": "F3",
+                      "step": "F"
+                    },
+                    "position": "64"
+                  },
+                  {
+                    "value": "6",
+                    "note": {
+                      "pitch": "E4",
+                      "step": "E"
+                    },
+                    "position": "128"
+                  },
+                  {
+                    "value": "6",
+                    "position": "192"
+                  }
+                ]
+              }
+            }
+          },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          {
+            "voices": {
+              "voice": {
+                "noteSet": [
+                  {
+                    "value": "6",
+                    "note": {
+                      "pitch": "B3",
+                      "step": "B"
+                    }
+                  },
+                  {
+                    "value": "6",
+                    "note": {
+                      "pitch": "C4",
+                      "step": "C"
+                    },
+                    "position": "64"
+                  },
+                  {
+                    "value": "6",
+                    "note": {
+                      "pitch": "C4",
+                      "step": "C"
+                    },
+                    "position": "128"
+                  },
+                  {
+                    "value": "6",
+                    "position": "192"
+                  }
+                ]
+              }
+            }
+          },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } }
+        ]
+      }
+    },
+    {
+      "id": "62a96a75-8870-424d-8432-d395f09c7f1c",
+      "name": "Guitar",
+      "shortName": "Gtr.",
+      "instrumentUri": "strings/guitar/acoustic/classical/tab",
+      "fretboardType": "guitar",
+      "staff": {
+        "measure": [
+          {
+            "attributes": {
+              "staffTuning": {
+                "line": [
+                  {
+                    "note": "E2"
+                  },
+                  {
+                    "note": "A2"
+                  },
+                  {
+                    "note": "D3"
+                  },
+                  {
+                    "note": "G3"
+                  },
+                  {
+                    "note": "B3"
+                  },
+                  {
+                    "note": "E4"
+                  }
+                ]
+              },
+              "clef": {
+                "sign": "tab"
+              }
+            },
+            "voices": {
+              "voice": {
+                "noteSet": [
+                  {
+                    "value": "6",
+                    "note": {
+                      "pitch": "E4",
+                      "step": "E",
+                      "noteHead": "normal",
+                      "string": "0"
+                    }
+                  },
+                  {
+                    "value": "6",
+                    "position": "64"
+                  },
+                  {
+                    "value": "7",
+                    "position": "128"
+                  }
+                ]
+              }
+            }
+          },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } },
+          { "voices": { "voice": {} } }
+        ]
+      }
+    }
+  ]
+}

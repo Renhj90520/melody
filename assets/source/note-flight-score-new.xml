@@ -1,0 +1,1365 @@
+<noteflightScore version="0.4" >
+  <title />
+  <subtitle />
+  <composer />
+  <lyricist />
+  <arranger />
+  <viewInfo >
+    <viewScale>1.6
+    </viewScale>
+    <displayMode>paginated
+    </displayMode>
+  </viewInfo >
+  <scoreMetrics >
+    <lineSize>6</lineSize>
+    <staffSpacing>5.5</staffSpacing>
+    <systemSpacing>9.25</systemSpacing>
+    <showMultipleHyphens>true</showMultipleHyphens>
+    <hyphensMinPadding>4</hyphensMinPadding>
+    <textProportional>true</textProportional>
+    <titleSize>0.6</titleSize>
+    <subtitleSize>0.3</subtitleSize>
+    <supertitleSize>0.3</supertitleSize>
+    <composerSize>0.4</composerSize>
+    <titlePagePromptSize>0.3</titlePagePromptSize>
+    <copyrightSize>0.24</copyrightSize>
+    <pageNumberSize>0.3</pageNumberSize>
+    <lyricsSize>0.275</lyricsSize>
+    <lyricsAboveStaffBottom>6</lyricsAboveStaffBottom>
+    <lyricsBelowStaffTop>-2</lyricsBelowStaffTop>
+    <lyricsLineSpacing>2</lyricsLineSpacing>
+    <performanceTextSize>0.3</performanceTextSize>
+    <chordSymbolSize>0.32</chordSymbolSize>
+    <showCopyrightOnAllPages>false</showCopyrightOnAllPages>
+    <indentationSpacing>0</indentationSpacing>
+    <partDisplayRespectSystemBreaks>false</partDisplayRespectSystemBreaks>
+    <layoutSpacing>0</layoutSpacing>
+    <verticalAutoSpace>true</verticalAutoSpace>
+    <centerChordSymbols>false</centerChordSymbols>
+    <keepChordSymbolsApart>false</keepChordSymbolsApart>
+    <systemStretch>5</systemStretch>
+    <musicFont>default</musicFont>
+    <autoMultiMeasureRestCreation>false</autoMultiMeasureRestCreation>
+    <titlePageFirstStaffPadding>0</titlePageFirstStaffPadding>
+    <pageTopPadding>0</pageTopPadding>
+    <showBarNumbers>true</showBarNumbers>
+    <showBarNumbersOnEachMeasure>false</showBarNumbersOnEachMeasure>
+    <showPartNames>true</showPartNames>
+    <showChordDiagrams>false</showChordDiagrams>
+    <partNamePosition>staff</partNamePosition>
+    <showPartNamesOnEveryPage>false</showPartNamesOnEveryPage>
+    <showTabRhythm>true</showTabRhythm>
+    <standardFontSettings>
+      <block>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.275</size>
+      </block>
+      <chordSymbol>
+        <typeface>SourceSansPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.32</size>
+      </chordSymbol>
+      <composer>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.4</size>
+      </composer>
+      <copyright>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.24</size>
+      </copyright>
+      <lyrics>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.275</size>
+      </lyrics>
+      <measureNumber>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.25</size>
+      </measureNumber>
+      <pageNumber>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </pageNumber>
+      <partName>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </partName>
+      <performanceText>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </performanceText>
+      <prompt>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </prompt>
+      <subtitle>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </subtitle>
+      <supertitle>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </supertitle>
+      <tempoSymbol>
+        <typeface>SourceSansPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.22</size>
+      </tempoSymbol>
+      <title>
+        <typeface>SourceSerifPro</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.6</size>
+      </title>
+    </standardFontSettings>
+    <jazzFontSettings>
+      <block>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.275</size>
+      </block>
+      <chordSymbol>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.5</size>
+      </chordSymbol>
+      <composer>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </composer>
+      <copyright>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.25</size>
+      </copyright>
+      <lyrics>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </lyrics>
+      <measureNumber>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </measureNumber>
+      <pageNumber>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </pageNumber>
+      <partName>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </partName>
+      <performanceText>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </performanceText>
+      <prompt>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </prompt>
+      <subtitle>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </subtitle>
+      <supertitle>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </supertitle>
+      <tempoSymbol>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.3</size>
+      </tempoSymbol>
+      <title>
+        <typeface>AshText</typeface>
+        <italic>false</italic>
+        <bold>false</bold>
+        <size>0.6</size>
+      </title>
+    </jazzFontSettings>
+  </scoreMetrics >
+  <pageMetrics>
+    <pageSize>US Letter</pageSize>
+    <orientation>Portrait</orientation>
+    <pageMarginLeft>18
+    </pageMarginLeft>
+    <pageMarginRight>18</pageMarginRight>
+    <pageMarginTop>16</pageMarginTop>
+    <pageMarginBottom>16
+    </pageMarginBottom>
+  </pageMetrics>
+  <performanceMetrics>
+    <graceNoteBeatFraction>0</graceNoteBeatFraction>
+    <graceNoteTime>0.07
+    </graceNoteTime>
+  </performanceMetrics>
+  <idCounter>1</idCounter>
+  <systemPart>
+    <staff>
+      <measure>
+        <attributes>
+          <timeSignature>
+            <beats>4
+            </beats>
+            <beatType>4</beatType>
+          </timeSignature>
+          <keySignature>
+            <fifths>0
+            </fifths>
+            <mode>major</mode>
+          </keySignature>
+          <tempo>
+            <value>6
+            </value>
+            <bpm>120
+            </bpm>
+          </tempo>
+        </attributes>
+        <notations>
+          <timeSignature>
+            <beats>4
+            </beats>
+            <beatType>4
+            </beatType>
+          </timeSignature>
+          <tempo>
+            <value>6
+            </value>
+            <bpm>120
+            </bpm>
+          </tempo>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <startRepeat />
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <endRepeat />
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barlin>
+            <position>256
+            </position>
+          </barlin>
+        </notations>
+      </measure>
+      <measure>
+        <attributes />
+        <notations>
+          <barline>
+            <type>final
+            </type>
+            <position>256
+            </position>
+          </barline>
+        </notations>
+      </measure>
+    </staff>
+  </systemPart>
+  <part>
+    <id>187f7135-9ce9-4563-8ea4-c828640a9ca1
+    </id>
+    <name>Piano</name>
+    <shortName>Pno.</shortName>
+    <instrumentUri>percussion/pitched/piano</instrumentUri>
+    <fretboardType>guitar</fretboardType>
+    <staff>
+      <measure>
+        <attributes>
+          <clef>
+            <sign>G
+            </sign>
+            <note>G4
+            </note>
+            <line>1
+            </line>
+          </clef>
+        </attributes>
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>D4
+                </pitch>
+                <step>D
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>D4
+                </pitch>
+                <step>D
+                </step>
+              </note>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>D4
+                </pitch>
+                <step>D
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>C#4
+                </pitch>
+                <step>C</step>
+                <accidental>sharp
+                </accidental>
+              </note>
+              <position>192
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>C5
+                </pitch>
+                <step>C
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>A3
+                </pitch>
+                <step>A
+                </step>
+              </note>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>B3
+                </pitch>
+                <step>B
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>C4
+                </pitch>
+                <step>C
+                </step>
+              </note>
+              <position>192
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6
+              </value>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>B4
+                </pitch>
+                <step>B
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>B4
+                </pitch>
+                <step>B
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>7</value>
+              <note>
+                <pitch>C5
+                </pitch>
+                <step>C
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>C5
+                </pitch>
+                <step>C
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>B4
+                </pitch>
+                <step>B
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>B4
+                </pitch>
+                <step>B
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>7</value>
+              <note>
+                <pitch>A4
+                </pitch>
+                <step>A
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>D5
+                </pitch>
+                <step>D
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>7</value>
+              <note>
+                <pitch>C5
+                </pitch>
+                <step>C
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>C5
+                </pitch>
+                <step>C
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>7</value>
+              <note>
+                <pitch>B4
+                </pitch>
+                <step>B
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>5
+              </value>
+              <note>
+                <pitch>B4
+                </pitch>
+                <step>B
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>5
+              </value>
+              <position>160
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>A3
+                </pitch>
+                <step>A
+                </step>
+              </note>
+              <position>192
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>G4
+                </pitch>
+                <step>G
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>A4
+                </pitch>
+                <step>A
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+    </staff>
+    <staff>
+      <measure>
+        <attributes>
+          <clef>
+            <sign>F
+            </sign>
+            <note>F3
+            </note>
+            <line>3
+            </line>
+          </clef>
+        </attributes>
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>G3
+                </pitch>
+                <step>G
+                </step>
+              </note>
+              <tremolo>1
+              </tremolo>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>A3
+                </pitch>
+                <step>A
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+            <slur>
+              <span>128
+              </span>
+              <endx>0.65
+              </endx>
+              <ascent>0.5</ascent>
+              <position>128
+              </position>
+              <dx>0.65
+              </dx>
+              <dy>5</dy>
+              <direction>up
+              </direction>
+            </slur>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>7</value>
+              <note>
+                <pitch>B3
+                </pitch>
+                <step>B
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <note>
+                <pitch>C4
+                </pitch>
+                <step>C
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>7</value>
+              <note>
+                <pitch>D4
+                </pitch>
+                <step>D
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+    </staff>
+  </part>
+  <part>
+    <id>d545c96c-156f-499f-adb1-d81ead060c07
+    </id>
+    <name>Guitar</name>
+    <shortName>Gtr.</shortName>
+    <instrumentUri>strings/guitar/acoustic/classical/basic</instrumentUri>
+    <octaveShift>1
+    </octaveShift>
+    <fretboardType>guitar</fretboardType>
+    <staff>
+      <measure>
+        <attributes>
+          <clef>
+            <sign>G
+            </sign>
+            <note>G4
+            </note>
+            <line>1
+            </line>
+          </clef>
+        </attributes>
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>C4
+                </pitch>
+                <step>C
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>F3
+                </pitch>
+                <step>F
+                </step>
+              </note>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>E4
+                </pitch>
+                <step>E
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>192
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>B3
+                </pitch>
+                <step>B
+                </step>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>C4
+                </pitch>
+                <step>C
+                </step>
+              </note>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <note>
+                <pitch>C4
+                </pitch>
+                <step>C
+                </step>
+              </note>
+              <position>128
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>192
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+    </staff>
+  </part>
+  <part>
+    <id>62a96a75-8870-424d-8432-d395f09c7f1c
+    </id>
+    <name>Guitar</name>
+    <shortName>Gtr.</shortName>
+    <instrumentUri>strings/guitar/acoustic/classical/tab</instrumentUri>
+    <fretboardType>guitar</fretboardType>
+    <staff>
+      <measure>
+        <attributes>
+          <staffTuning>
+            <line>
+              <note>E2
+              </note>
+            </line>
+            <line>
+              <note>A2
+              </note>
+            </line>
+            <line>
+              <note>D3
+              </note>
+            </line>
+            <line>
+              <note>G3
+              </note>
+            </line>
+            <line>
+              <note>B3
+              </note>
+            </line>
+            <line>
+              <note>E4
+              </note>
+            </line>
+          </staffTuning>
+          <clef>
+            <sign>tab
+            </sign>
+          </clef>
+        </attributes>
+        <notations />
+        <voices>
+          <voice>
+            <noteSet>
+              <value>6</value>
+              <note>
+                <pitch>E4
+                </pitch>
+                <step>E
+                </step>
+                <noteHead>normal</noteHead>
+                <string>0
+                </string>
+              </note>
+            </noteSet>
+            <noteSet>
+              <value>6
+              </value>
+              <position>64
+              </position>
+            </noteSet>
+            <noteSet>
+              <value>7
+              </value>
+              <position>128
+              </position>
+            </noteSet>
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+      <measure>
+        <attributes />
+        <notations />
+        <voices>
+          <voice>
+            <tacet />
+          </voice>
+        </voices>
+      </measure>
+    </staff>
+  </part>
+</noteflightScore>

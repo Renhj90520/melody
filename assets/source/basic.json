@@ -1,0 +1,126 @@
+{
+  "title": "",
+  "subtitle": "",
+  "composer": "",
+  "lyricist": "",
+  "arranger": "",
+  "viewInfo": {
+    "viewScale": 1.6,
+    "displayMode": "paginated"
+  },
+  "scoreMetrics": {
+    "style": "default",
+    "lineSize": "6",
+    "staffSpacing": "5.5",
+    "systemSpacing": "9.25",
+    "showMultipleHyphens": "true",
+    "hyphensMinPadding": "4",
+    "textProportional": "true",
+    "titleSize": "0.6",
+    "subtitleSize": "0.3",
+    "supertitleSize": "0.3",
+    "composerSize": "0.4",
+    "titlePagePromptSize": "0.3",
+    "copyrightSize": "0.24",
+    "pageNumberSize": "0.3",
+    "showCopyrightOnAllPages": "false",
+    "lyricsSize": "0.275",
+    "performanceTextSize": "0.3",
+    "chordSymbolSize": "0.32",
+    "indentationSpacing": "0",
+    "partDisplayRespectSystemBreaks": "false",
+    "layoutSpacing": "0",
+    "verticalAutoSpace": "true",
+    "centerChordSymbols": "false",
+    "keepChordSymbolsApart": "false",
+    "systemStretch": "5",
+    "musicFont": "default",
+    "autoMultiMeasureRestCreation": "false",
+    "titlePageFirstStaffPadding": "0",
+    "pageTopPadding": "0",
+    "showBarNumbers": "true",
+    "showBarNumbersOnEachMeasure": "false",
+    "showPartNames": "true",
+    "showChordDiagrams": "false",
+    "partNamePosition": "staff",
+    "showPartNamesOnEveryPage": "false",
+    "showTabRhythm": "true"
+  },
+  "pageMetrics": {
+    "pageSize": "US Letter",
+    "orientation": "Portrait",
+    "pageMarginLeft": "18",
+    "pageMarginRight": "18",
+    "pageMarginTop": "16",
+    "pageMarginBottom": "16"
+  },
+  "performanceMetrics": {
+    "graceNoteBeatFraction": "0",
+    "graceNoteTime": "0.07"
+  },
+  "idCounter": "1",
+  "systemPart": {
+    "staff": {
+      "measures": [
+        {
+          "attributes": {
+            "timeSignature": {
+              "beats": "4",
+              "beatType": "4"
+            },
+            "keySignature": {
+              "fifths": "0",
+              "mode": "major"
+            },
+            "tempo": {
+              "value": 6,
+              "bpm": "120"
+            }
+          },
+          "notations": [
+            {
+              "key": "timeSignature",
+              "beats": "4",
+              "beatType": "4"
+            },
+            { "key": "tempo", "value": 6, "bpm": "120" },
+            {
+              "key": "barline",
+              "position": 256
+            }
+          ]
+        },
+        {
+          "attributes": "",
+          "notations": [
+            {
+              "key": "barline",
+              "position": 256
+            }
+          ]
+        },
+        {
+          "attributes": "",
+          "notations": [
+            {
+              "key": "barline",
+              "position": 256
+            }
+          ]
+        },
+        {
+          "attributes": "",
+          "notations": [
+            {
+              "key": "barline",
+              "type": "final",
+              "position": 256
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "part": [],
+  "_version": "0.4"
+}

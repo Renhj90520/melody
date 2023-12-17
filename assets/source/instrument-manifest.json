@@ -1,0 +1,3526 @@
+{
+  "instruments": [
+    {
+      "uri": "strings/guitar/acoustic/steel/premium",
+      "alias": "strings/guitar/acoustic/steel",
+      "name": "Acoustic Guitar",
+      "genericInstrument": "acoustic_guitar",
+      "group": ["plucked strings", "jazz"],
+      "description": "Acoustic Steel-String Guitar. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/AcousticGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Acoustic Guitar",
+        "shortName": "Gtr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 26
+      }
+    },
+    {
+      "uri": "strings/guitar/acoustic/premium/tab",
+      "group": ["plucked strings", "jazz"],
+      "name": "Acoustic Guitar (Tab)",
+      "genericInstrument": "acoustic_guitar_tab",
+      "description": "Acoustic Steel-String Guitar (tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/AcousticGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Acoustic Guitar",
+        "shortName": "Gtr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 26
+      }
+    },
+    {
+      "uri": "woodwind/saxophone/alto/premium",
+      "alias": ["woodwind/saxophone/alto", "woodwind/saxophone"],
+      "group": ["woodwind", "jazz"],
+      "name": "Alto Sax",
+      "genericInstrument": "alto_saxophone",
+      "description": "Alto Saxophone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/AltoSax/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Alto Sax",
+        "shortName": "A.Sax.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -9,
+        "midiPatch": 65
+      }
+    },
+    {
+      "uri": "strings/banjo",
+      "name": "Banjo",
+      "genericInstrument": "banjo",
+      "group": "plucked strings",
+      "description": "Banjo. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Banjo/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Banjo",
+        "shortName": "Bnj.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 105
+      }
+    },
+    {
+      "uri": "woodwind/saxophone/baritone/premium",
+      "alias": "woodwind/saxophone/baritone",
+      "group": ["woodwind", "jazz"],
+      "name": "Baritone Sax",
+      "genericInstrument": "baritone_saxophone",
+      "description": "Baritone Saxophone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/BaritoneSax/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Baritone Sax",
+        "shortName": "B.Sax.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -21,
+        "midiPatch": 67
+      }
+    },
+    {
+      "uri": "woodwind/clarinet/bass/premium",
+      "alias": ["woodwind/clarinet/bass", "woodwind/clarinet/contrabass"],
+      "name": "Bass Clarinet",
+      "genericInstrument": "bass_clarinet",
+      "description": "Bass Clarinet. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/BassClarinet/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bass Clarinet",
+        "shortName": "Bs.Cl.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -14,
+        "midiPatch": 71
+      }
+    },
+    {
+      "uri": "percussion/unpitched/bass-drum/premium",
+      "alias": "percussion/unpitched/bass-drum",
+      "group": "unpitched percussion",
+      "name": "Bass Drum",
+      "genericInstrument": "drum_set",
+      "description": "Orchestral Bass Drum. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OrchBassDrum/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bass Drum",
+        "shortName": "B.D.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 1,
+            "displayLineSpacing": 1
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": 116
+      }
+    },
+    {
+      "uri": "percussion/drums/marchingBand/bass/premium",
+      "alias": "percussion/drums/marchingBand/bass",
+      "group": ["unpitched percussion", "marching percussion"],
+      "name": "Bass Drum (Marching Band)",
+      "genericInstrument": "drum_set",
+      "description": "Bass Drum (Marching Band)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/BassMarchingBand/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bass Drum",
+        "shortName": "Bass",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 5,
+            "displayLineSpacing": 1
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 82
+      }
+    },
+    {
+      "uri": "strings/bass/ensemble/premium",
+      "alias": "strings/bass/ensemble",
+      "group": "bowed strings",
+      "name": "Double Bass (Section)",
+      "genericInstrument": "double_bass",
+      "description": "Bass Section. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Basses/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Double Bass",
+        "shortName": "D.B.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 43
+      }
+    },
+    {
+      "uri": "strings/bass/solo/premium",
+      "alias": "strings/bass/solo",
+      "group": "bowed strings",
+      "name": "Double Bass (Solo)",
+      "genericInstrument": "double_bass",
+      "description": "Solo Bass. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SoloBass/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Double Bass",
+        "shortName": "D.B.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 43
+      }
+    },
+    {
+      "uri": "woodwind/bassoon/premium",
+      "alias": ["woodwind/contrabassoon", "woodwind/bassoon"],
+      "name": "Bassoon",
+      "genericInstrument": "bassoon",
+      "description": "Bassoon. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Bassoon/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bassoon",
+        "shortName": "Bsn.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 70
+      }
+    },
+    {
+      "uri": "percussion/unpitched/bongo/premium",
+      "alias": "percussion/unpitched/bongo",
+      "group": ["unpitched percussion", "latin instruments"],
+      "name": "Bongo",
+      "genericInstrument": "percussion",
+      "description": "Bongo",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Bongo/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bongo",
+        "shortName": "Bng.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 2,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/pitched/celesta",
+      "alias": "percussion/pitched/celeste",
+      "group": ["pitched percussion", "keyboards"],
+      "name": "Celesta",
+      "genericInstrument": "piano_keyboard",
+      "description": "Celesta. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Celesta/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Celesta",
+        "shortName": "Cel.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "octaveShift": -1,
+        "transposition": 0,
+        "midiPatch": 8
+      }
+    },
+    {
+      "uri": "strings/cello/ensemble/premium",
+      "alias": "strings/cello/ensemble",
+      "group": "bowed strings",
+      "name": "Cello (Section)",
+      "genericInstrument": "cello",
+      "description": "Cello Section. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Cellos/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Violoncello",
+        "shortName": "Vc.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 42
+      }
+    },
+    {
+      "uri": "strings/cello/solo/premium",
+      "alias": ["strings/cello/solo", "strings/cello"],
+      "group": "bowed strings",
+      "name": "Cello (Solo)",
+      "genericInstrument": "cello",
+      "description": "Solo Cello. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SoloCello/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Violoncello",
+        "shortName": "Vc.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 42
+      }
+    },
+    {
+      "uri": "vocal/choir/voice",
+      "name": "Voice",
+      "genericInstrument": "voice",
+      "description": "Voice. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Voice/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Voice",
+        "shortName": "Voice",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/soprano",
+      "name": "Soprano Voice",
+      "genericInstrument": "soprano",
+      "description": "Soprano Voice. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SopranoVoice/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Soprano",
+        "shortName": "S.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/alto",
+      "name": "Alto Voice",
+      "description": "Chorus, Alto. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/AltoVoice/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Alto",
+        "shortName": "A.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/tenor",
+      "name": "Tenor Voice",
+      "genericInstrument": "voice",
+      "description": "Tenor Voice. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/TenorVoice/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Tenor",
+        "shortName": "T.",
+        "staff": {
+          "clef": {
+            "sign": "tenorVoice"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/baritone",
+      "name": "Baritone Voice",
+      "description": "Chorus, Baritone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/BaritoneVoice/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Baritone",
+        "shortName": "Bar.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/bass",
+      "name": "Bass Voice",
+      "description": "Chorus, Bass. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/BassVoice/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bass",
+        "shortName": "B.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/female/aah",
+      "alias": [
+        "vocal/choir/female",
+        "vocal/alto",
+        "vocal/soprano",
+        "vocal/mezzo-soprano",
+        "vocal/countertenor",
+        "vocal/child",
+        "vocal/female",
+        "vocal"
+      ],
+      "name": "Chorus, Women (Ahh)",
+      "genericInstrument": "voice",
+      "description": "Chorus, Women (Ahh). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/ChoirFemaleAah/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Women",
+        "shortName": "Women",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 52,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/female/ooh",
+      "name": "Chorus, Women (Ohh)",
+      "genericInstrument": "voice",
+      "description": "Chorus, Women (Ohh). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/ChoirFemaleOoh/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Women",
+        "shortName": "Women",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/female/ooo",
+      "name": "Chorus, Women (Ooo)",
+      "genericInstrument": "voice",
+      "description": "Chorus, Women (Ooo). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/ChoirFemaleOoo/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Women",
+        "shortName": "Women",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/male/aah",
+      "alias": ["vocal/male", "vocal/bass", "vocal/tenor", "vocal/choir/male"],
+      "name": "Chorus, Men (Ahh)",
+      "genericInstrument": "voice",
+      "description": "Chorus, Men (Ahh). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/ChoirMaleAah/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Men",
+        "shortName": "Men",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 52,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/male/ooh",
+      "name": "Chorus, Men (Ohh)",
+      "genericInstrument": "voice",
+      "description": "Chorus, Men (Ohh). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/ChoirMaleOoh/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Men",
+        "shortName": "Men",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "vocal/choir/male/ooo",
+      "name": "Chorus, Men (Ooo)",
+      "genericInstrument": "voice",
+      "description": "Chorus, Men (Ooo). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 24000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/ChoirMaleOoo/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Men",
+        "shortName": "Men",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 53,
+        "directionsAboveStaff": true
+      }
+    },
+    {
+      "uri": "woodwind/clarinet/premium",
+      "alias": ["woodwind/clarinet", "woodwind"],
+      "name": "Clarinet",
+      "genericInstrument": "clarinet",
+      "description": "Clarinet. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Clarinet/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Clarinet",
+        "shortName": "Cl.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -2,
+        "midiPatch": 71
+      }
+    },
+    {
+      "uri": "strings/guitar/acoustic/classical/premium",
+      "alias": [
+        "strings/guitar/acoustic/classical",
+        "strings/guitar/acoustic",
+        "strings/guitar"
+      ],
+      "group": "plucked strings",
+      "name": "Classical Guitar",
+      "genericInstrument": "guitar",
+      "description": "Classical guitar. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/guitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Classical Guitar",
+        "shortName": "Class.Gtr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "octaveShift": 1,
+        "midiPatch": 24
+      }
+    },
+    {
+      "uri": "strings/guitar/acoustic/classical/premium/tab",
+      "group": "plucked strings",
+      "name": "Classical Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Classical guitar (Tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/guitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Classical Guitar",
+        "shortName": "Class.Gtr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 24
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/clean/premium",
+      "group": ["plucked strings", "jazz"],
+      "name": "Clean Electric Guitar",
+      "genericInstrument": "guitar",
+      "description": "Clean Electric Guitar",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/CleanElectricGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Clean Electric Guitar",
+        "shortName": "E.Gtr.Cln.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/clean/premium/tab",
+      "group": ["plucked strings", "jazz"],
+      "name": "Clean Electric Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Clean Electric Guitar (Tab)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/CleanElectricGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Clean Electric Guitar",
+        "shortName": "E.Gtr.Cln.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "percussion/unpitched/congas/premium",
+      "alias": "percussion/unpitched/congas",
+      "group": ["unpitched percussion", "latin instruments"],
+      "name": "Congas",
+      "genericInstrument": "percussion",
+      "description": "Congas",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Congas/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Congas",
+        "shortName": "Cng.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 2,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/unpitched/cowbell/premium",
+      "alias": "percussion/unpitched/cowbell",
+      "group": ["unpitched percussion", "latin instruments"],
+      "name": "Cowbell",
+      "genericInstrument": "percussion",
+      "description": "Cowbell",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Cowbell/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Cowbell",
+        "shortName": "Cwb.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 2,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": 55
+      }
+    },
+    {
+      "uri": "percussion/unpitched/cymbals/premium",
+      "alias": "percussion/unpitched/cymbals",
+      "group": "unpitched percussion",
+      "name": "Cymbals",
+      "genericInstrument": "percussion",
+      "description": "Orchestral Cymbals. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OrchCymbals/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Cymbals",
+        "shortName": "Cym.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 3,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": 54
+      }
+    },
+    {
+      "uri": "percussion/drums/marchingBand/cymbals/premium",
+      "alias": "percussion/drums/marchingBand/cymbals",
+      "group": ["unpitched percussion", "marching percussion"],
+      "name": "Cymbals (Marching Band)",
+      "genericInstrument": "percussion",
+      "description": "Cymbals (Marching Band)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/CymbalsMarchingBand/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Cymbals",
+        "shortName": "Cym.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 1,
+            "displayLineSpacing": 1
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 54
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/distortion/premium",
+      "group": "plucked strings",
+      "name": "Distortion Guitar",
+      "genericInstrument": "guitar",
+      "description": "Distortion Electric Guitar",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/DistortionElectricGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Distortion Guitar",
+        "shortName": "E.Gtr.Distr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "midiPatch": 30
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/distortion/premium/tab",
+      "group": "plucked strings",
+      "name": "Distortion Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Distortion Electric Guitar (Tab)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/DistortionElectricGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Distortion Guitar",
+        "shortName": "E.Gtr.Distr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "midiPatch": 30
+      }
+    },
+    {
+      "uri": "percussion/drums/premiumStandard",
+      "alias": "percussion/unpitched",
+      "group": "unpitched percussion",
+      "name": "Drums (Standard)",
+      "genericInstrument": "drum_set",
+      "description": "Session Drums (Percussive Arts Society Standard Layout). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SessionDrumsStd/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Drums",
+        "shortName": "Dr.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "percussionMap": "PAS"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/drums/premium",
+      "alias": "percussion/drums",
+      "group": "unpitched percussion",
+      "name": "Drums (Berklee)",
+      "genericInstrument": "drum_set",
+      "description": "Session Drums (Berklee Layout). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SessionDrums/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Drums",
+        "shortName": "Dr.",
+        "staff": {
+          "clef": {
+            "sign": "percussion"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "strings/bass/electric/premium",
+      "alias": "strings/bass/electric",
+      "group": "plucked strings",
+      "name": "Electric Bass",
+      "genericInstrument": "bass_guitar",
+      "description": "Electric Bass. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/PBassPick/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Electric Bass",
+        "shortName": "E.Bs.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 34
+      }
+    },
+    {
+      "uri": "strings/bass/electric/premium/tab",
+      "group": "plucked strings",
+      "name": "Electric Bass (Tab)",
+      "genericInstrument": "bass_guitar_tab",
+      "description": "Electric Bass (tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/PBassPick/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Electric Bass",
+        "shortName": "E.Bs.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E1"
+              },
+              {
+                "note": "A1"
+              },
+              {
+                "note": "D2"
+              },
+              {
+                "note": "G2"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 34
+      }
+    },
+    {
+      "uri": "keyboards/electric-piano/premium",
+      "alias": "keyboards/electric-piano",
+      "group": ["keyboards", "jazz"],
+      "name": "Electric Piano",
+      "genericInstrument": "piano_keyboard",
+      "description": "Rhodes Electric Piano. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Rhodes/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Electric Piano",
+        "shortName": "E.Pno.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 4
+      }
+    },
+    {
+      "uri": "woodwind/english-horn/premium",
+      "alias": "woodwind/english-horn",
+      "name": "English Horn",
+      "genericInstrument": "english_horn",
+      "description": "English Horn. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/EnglishHorn/specification.xml"
+      },
+      "partDefaults": {
+        "name": "English Horn",
+        "shortName": "E.Hn.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -7,
+        "midiPatch": 69
+      }
+    },
+    {
+      "uri": "woodwind/flute/premium",
+      "alias": "woodwind/flute",
+      "name": "Flute",
+      "genericInstrument": "flute",
+      "description": "Flute. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Flute/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Flute",
+        "shortName": "Fl.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 73
+      }
+    },
+    {
+      "uri": "brass/french-horn/premium",
+      "alias": "brass/french-horn",
+      "name": "French Horn",
+      "genericInstrument": "french_horn",
+      "description": "French Horn. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/FrenchHorn/specification.xml"
+      },
+      "partDefaults": {
+        "name": "French Horn",
+        "shortName": "Hn.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -7,
+        "midiPatch": 60
+      }
+    },
+    {
+      "uri": "percussion/unpitched/dominican-guira/premium",
+      "alias": "percussion/unpitched/dominican-guira",
+      "group": ["unpitched percussion", "latin instruments"],
+      "name": "Güira",
+      "genericInstrument": "percussion",
+      "description": "Dominican Güira",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/DominicanGuira/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Güira",
+        "shortName": "Gra.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 2,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/unpitched/guiro/premium",
+      "alias": "percussion/unpitched/guiro",
+      "group": ["unpitched percussion", "latin instruments"],
+      "name": "Güiro",
+      "genericInstrument": "percussion",
+      "description": "Güiro",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Guiro/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Güiro",
+        "shortName": "Gro.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 1
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/pitched/glockenspiel/premium",
+      "alias": "percussion/pitched/glockenspiel",
+      "group": "pitched percussion",
+      "name": "Glockenspiel",
+      "genericInstrument": "percussion",
+      "description": "Glockenspiel. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Glockenspiel/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Glockenspiel",
+        "shortName": "Glock.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": -2,
+        "transposition": 0,
+        "midiPatch": 9
+      }
+    },
+    {
+      "uri": "percussion/pitched/piano/grand/premium",
+      "alias": "percussion/pitched/piano/grand",
+      "group": "pitched percussion",
+      "name": "Grand Piano",
+      "genericInstrument": "piano_keyboard",
+      "description": "Grand Piano. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/GrandPiano/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Piano",
+        "shortName": "Pno.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 0
+      }
+    },
+    {
+      "uri": "strings/harp/premium",
+      "alias": "strings/harp",
+      "group": "plucked strings",
+      "name": "Harp",
+      "genericInstrument": "harp",
+      "description": "Harp. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Harp/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Harp",
+        "shortName": "Hp.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 46
+      }
+    },
+    {
+      "uri": "strings/harpsichord",
+      "group": ["plucked strings", "keyboards"],
+      "name": "Harpsichord",
+      "genericInstrument": "harpsichord",
+      "description": "Harpsichord. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Harpsichord/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Harpsichord",
+        "shortName": "Hpsch.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "transposition": 0,
+        "midiPatch": 6
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/lead/premium",
+      "alias": "strings/guitar/electric/lead",
+      "group": "plucked strings",
+      "name": "Lead Guitar",
+      "genericInstrument": "guitar",
+      "description": "Lead Electric Guitar. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/LesPaul/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Lead Guitar",
+        "shortName": "Lead Gtr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/lead/premium/tab",
+      "group": "plucked strings",
+      "name": "Lead Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Lead Electric Guitar (tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/LesPaul/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Lead Guitar",
+        "shortName": "Lead Gtr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/paul",
+      "alias": "strings/guitar/electric",
+      "group": "plucked strings",
+      "name": "Les Paul Guitar",
+      "genericInstrument": "guitar",
+      "description": "Les Paul Guitar. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Paul/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Les Paul Guitar",
+        "shortName": "L.P.Gtr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/paul/tab",
+      "group": "plucked strings",
+      "name": "Les Paul Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Les Paul Guitar (Tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Paul/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Les Paul Guitar",
+        "shortName": "L.P.Gtr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "percussion/pitched/marimba/premium",
+      "alias": [
+        "percussion/pitched/marimba",
+        "percussion/pitched/balafon",
+        "percussion/pitched/xylorimba"
+      ],
+      "group": ["pitched percussion", "latin instruments"],
+      "name": "Marimba",
+      "genericInstrument": "percussion",
+      "description": "Marimba. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Marimba/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Marimba",
+        "shortName": "Mar.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 12
+      }
+    },
+    {
+      "uri": "percussion/pitched/marimba/premium/grand",
+      "group": ["pitched percussion", "latin instruments"],
+      "name": "Marimba (Grand Staff)",
+      "genericInstrument": "percussion",
+      "description": "Marimba. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Marimba/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Marimba",
+        "shortName": "Mar.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 12
+      }
+    },
+    {
+      "uri": "percussion/unpitched/metronome/premium",
+      "alias": "percussion/unpitched/metronome",
+      "group": "unpitched percussion",
+      "name": "Metronome",
+      "genericInstrument": "percussion",
+      "description": "Metronome",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Metronome/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Metronome",
+        "shortName": "Mtnm.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 2,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "woodwind/oboe/premium",
+      "alias": "woodwind/oboe",
+      "name": "Oboe",
+      "genericInstrument": "oboe",
+      "description": "Oboe. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Oboe/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Oboe",
+        "shortName": "Ob.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 68
+      }
+    },
+    {
+      "uri": "keyboards/organ/premium",
+      "alias": "keyboards/organ",
+      "name": "Organ (Electric)",
+      "genericInstrument": "organ",
+      "description": "Electric Organ. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OrganStop14/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Organ",
+        "shortName": "Org.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 16
+      }
+    },
+    {
+      "uri": "keyboards/organ/premium",
+      "alias": "keyboards/organ",
+      "name": "Organ",
+      "genericInstrument": "organ",
+      "description": "Electric Organ. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OrganStop14/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Organ",
+        "shortName": "Org.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            },
+            "pedal": ""
+          }
+        ],
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 17
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/overdrive/premium",
+      "group": "plucked strings",
+      "name": "Overdriven Guitar",
+      "genericInstrument": "guitar",
+      "description": "Overdriven Electric Guitar",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OverdriveElectricGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Overdriven Guitar",
+        "shortName": "E.Gtr.Ovdr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "midiPatch": 29
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/overdrive/premium/tab",
+      "group": "plucked strings",
+      "name": "Overdriven Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Overdriven Electric Guitar (Tab)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OverdriveElectricGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Overdriven Guitar",
+        "shortName": "E.Gtr.Ovdr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "midiPatch": 29
+      }
+    },
+    {
+      "uri": "percussion/generic/single",
+      "alias": "percussion",
+      "name": "Percussion (1-line)",
+      "genericInstrument": "percussion",
+      "group": "unpitched percussion",
+      "description": "Single line percussion staff",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/drumkitStd/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Percussion",
+        "shortName": "Perc.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 1
+          }
+        }
+      }
+    },
+    {
+      "uri": "percussion/generic/double",
+      "name": "Percussion (2-line)",
+      "genericInstrument": "percussion",
+      "group": "unpitched percussion",
+      "description": "Two line percussion staff",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/drumkitStd/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Percussion",
+        "shortName": "Perc.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 2,
+            "displayLineSpacing": 2
+          }
+        }
+      }
+    },
+    {
+      "uri": "percussion/generic/triple",
+      "name": "Percussion (3-line)",
+      "genericInstrument": "percussion",
+      "group": "unpitched percussion",
+      "description": "Three line percussion staff",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/drumkitStd/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Percussion",
+        "shortName": "Perc.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 3,
+            "displayLineSpacing": 2
+          }
+        }
+      }
+    },
+    {
+      "uri": "percussion/pitched/piano/premium",
+      "alias": [
+        "percussion/pitched/piano",
+        "percussion/pitched",
+        "keyboards",
+        "default"
+      ],
+      "group": ["pitched percussion", "keyboards", "jazz"],
+      "name": "Piano",
+      "genericInstrument": "piano_keyboard",
+      "description": "Piano (from Basic library)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/piano/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Piano",
+        "shortName": "Pno.",
+        "staff": [
+          {
+            "clef": {
+              "sign": "G"
+            }
+          },
+          {
+            "clef": {
+              "sign": "F"
+            }
+          }
+        ],
+        "transposition": 0,
+        "midiPatch": 0
+      }
+    },
+    {
+      "uri": "woodwind/piccolo/premium",
+      "alias": "woodwind/piccolo",
+      "name": "Piccolo",
+      "genericInstrument": "piccolo",
+      "description": "Piccolo. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Piccolo/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Piccolo",
+        "shortName": "Picc.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": -1,
+        "transposition": 0,
+        "midiPatch": 72
+      }
+    },
+    {
+      "uri": "percussion/recycled/premium",
+      "alias": "percussion/recycled",
+      "group": "unpitched percussion",
+      "name": "Recycled Percussion",
+      "genericInstrument": "percussion",
+      "description": "Recycled Percussion. Copyright © 2010 Justin Dwyer, The Song Room. http://pingmusic.com.au",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/RecycledPercussion/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Recycled Percussion",
+        "shortName": "Rec.Perc.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/generic/rhythm",
+      "name": "Rhythm",
+      "genericInstrument": "percussion",
+      "group": "unpitched percussion",
+      "description": "Rhythm staff without lines",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/drumkitStd/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Rhythm",
+        "shortName": "Rhythm",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 0
+          }
+        }
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/rickenbacker",
+      "alias": "strings/rickenbacker",
+      "group": "plucked strings",
+      "name": "Rickenbacker Guitar",
+      "genericInstrument": "guitar",
+      "description": "Rickenbacker Guitar. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Rickenbacker/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Rickenbacker Guitar",
+        "shortName": "Rckbkr.Gtr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/rickenbacker/tab",
+      "group": "plucked strings",
+      "name": "Rickenbacker Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Rickenbacker Guitar (Tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Rickenbacker/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Rickenbacker Guitar",
+        "shortName": "Rckbkr.Gtr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/bass/electric/rockpick/premium",
+      "group": "plucked strings",
+      "name": "Rock Electric Bass",
+      "genericInstrument": "bass_guitar",
+      "description": "Rock Electric Bass Picked",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/RockBass/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Electric Bass",
+        "shortName": "E.Bs.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 1,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/bass/electric/rockpick/premium/tab",
+      "group": "plucked strings",
+      "name": "Rock Electric Bass (Tab)",
+      "genericInstrument": "bass_guitar_tab",
+      "description": "Rock Electric Bass Picked (tab)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/RockBass/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Electric Bass",
+        "shortName": "E.Bs.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E1"
+              },
+              {
+                "note": "A1"
+              },
+              {
+                "note": "D2"
+              },
+              {
+                "note": "G2"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "percussion/unpitched/sleighBell/basic",
+      "alias": "percussion/unpitched/sleighBell",
+      "group": "unpitched percussion",
+      "name": "Sleigh Bell",
+      "genericInstrument": "percussion",
+      "description": "Sleigh Bell",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/sleighBell/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Sleigh Bell",
+        "shortName": "Bell",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 1,
+            "displayLineSpacing": 1
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 100
+      }
+    },
+    {
+      "uri": "percussion/unpitched/snare/premium",
+      "alias": "percussion/unpitched/snare",
+      "group": ["unpitched percussion", "latin instruments"],
+      "name": "Snare",
+      "genericInstrument": "percussion",
+      "description": "Orchestral Snare. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OrchSnare/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Snare",
+        "shortName": "S.Dr.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 3,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/drums/marchingBand/snare/premium",
+      "alias": "percussion/drums/marchingBand/snare",
+      "group": ["unpitched percussion", "marching percussion"],
+      "name": "Snare (Marching Band)",
+      "genericInstrument": "percussion",
+      "description": "Snare (Marching Band)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SnareMarchingBand/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Snare",
+        "shortName": "S.Dr.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 1,
+            "displayLineSpacing": 1
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 80
+      }
+    },
+    {
+      "uri": "woodwind/saxophone/soprano/premium",
+      "alias": "woodwind/saxophone/soprano",
+      "group": ["woodwind", "jazz"],
+      "name": "Soprano Sax",
+      "genericInstrument": "soprano_saxophone",
+      "description": "Soprano saxophone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/sopranoSax/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Soprano Sax",
+        "shortName": "S.Sax.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": -2,
+        "midiPatch": 64
+      }
+    },
+    {
+      "uri": "strings/guitar/acoustic/steelfinger/premium",
+      "group": "plucked strings",
+      "name": "Steel-String Guitar",
+      "genericInstrument": "guitar",
+      "description": "Steel-String Guitar",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SteelStringGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Steel-String Guitar",
+        "shortName": "St.Str.Gtr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 26
+      }
+    },
+    {
+      "uri": "strings/guitar/acoustic/steelfinger/premium/tab",
+      "group": "plucked strings",
+      "name": "Steel-String Guitar (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Steel-String Guitar (Tab)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SteelStringGuitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Steel-String Guitar",
+        "shortName": "St.Str.Gtr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 26
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/stratocaster",
+      "group": "plucked strings",
+      "name": "Stratocaster",
+      "genericInstrument": "guitar",
+      "description": "Stratocaster. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Stratocaster/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Stratocaster",
+        "shortName": "Strat.Gtr.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/guitar/electric/stratocaster/tab",
+      "group": "plucked strings",
+      "name": "Stratocaster (Tab)",
+      "genericInstrument": "guitar_tab",
+      "description": "Stratocaster (Tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Stratocaster/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Stratocaster",
+        "shortName": "Strat.Gtr.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "E2"
+              },
+              {
+                "note": "A2"
+              },
+              {
+                "note": "D3"
+              },
+              {
+                "note": "G3"
+              },
+              {
+                "note": "B3"
+              },
+              {
+                "note": "E4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 27
+      }
+    },
+    {
+      "uri": "strings/ukulele",
+      "group": "plucked strings",
+      "name": "Ukulele",
+      "genericInstrument": "guitar",
+      "description": "Ukulele. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Ukulele/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Ukulele",
+        "shortName": "Uke.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "octaveShift": 0,
+        "midiPatch": 24
+      }
+    },
+    {
+      "uri": "strings/ukulele/acoustic/premium/tab",
+      "group": "plucked strings",
+      "name": "Ukulele (Tab)",
+      "genericInstrument": "ukulele_tab",
+      "description": "Ukulele (Tab). Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/guitar/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Ukulele",
+        "shortName": "Uke.",
+        "staff": {
+          "staffTuning": {
+            "line": [
+              {
+                "note": "G4"
+              },
+              {
+                "note": "C4"
+              },
+              {
+                "note": "E4"
+              },
+              {
+                "note": "A4"
+              }
+            ]
+          },
+          "clef": {
+            "sign": "tab"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 24
+      }
+    },
+    {
+      "uri": "percussion/unpitched/dominican-tambora/premium",
+      "alias": "percussion/unpitched/dominican-tambora",
+      "group": "unpitched percussion",
+      "name": "Tambora",
+      "genericInstrument": "percussion",
+      "description": "Dominican Tambora",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/DominicanTambora/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Tambora",
+        "shortName": "Tmbra.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 2,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/drums/marchingBand/tenor/premium",
+      "alias": "percussion/drums/marchingBand/tenor",
+      "group": ["unpitched percussion", "marching percussion"],
+      "name": "Tenor (Marching Band)",
+      "genericInstrument": "percussion",
+      "description": "Tenor (Marching Band)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/TenorMarchingBand/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Tenor",
+        "shortName": "Ten.Dr.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 5,
+            "displayLineSpacing": 1
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 81
+      }
+    },
+    {
+      "uri": "woodwind/saxophone/tenor/premium",
+      "alias": "woodwind/saxophone/tenor",
+      "name": "Tenor Sax",
+      "genericInstrument": "tenor_saxophone",
+      "description": "Tenor Saxophone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/TenorSax/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Tenor Sax",
+        "shortName": "T.Sax.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -14,
+        "midiPatch": 66
+      }
+    },
+    {
+      "uri": "percussion/unpitched/timbales/premium",
+      "alias": ["percussion/unpitched/timbales", "percussion/drums/timbale"],
+      "group": ["unpitched percussion", "latin instruments"],
+      "name": "Timbales",
+      "genericInstrument": "percussion",
+      "description": "Timbales",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 48000,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Timbales/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Timbales",
+        "shortName": "Tmb.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": ""
+      }
+    },
+    {
+      "uri": "percussion/unpitched/timpani/premium",
+      "alias": ["percussion/unpitched/timpani", "percussion/drums/timpani"],
+      "group": "pitched percussion",
+      "name": "Timpani",
+      "genericInstrument": "percussion",
+      "description": "Timpani. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Timpani/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Timpani",
+        "shortName": "Timp.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": 47
+      }
+    },
+    {
+      "uri": "percussion/unpitched/toms/premium",
+      "alias": "percussion/unpitched/toms",
+      "group": "unpitched percussion",
+      "name": "Toms",
+      "genericInstrument": "percussion",
+      "description": "Orchestral Toms. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/OrchToms/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Toms",
+        "shortName": "Toms",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "note": "B4",
+            "line": 2,
+            "displayLineCount": 3,
+            "displayLineSpacing": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": "",
+        "midiPatch": 117
+      }
+    },
+    {
+      "uri": "brass/trombone/premium",
+      "alias": "brass/trombone",
+      "group": ["brass", "jazz"],
+      "name": "Trombone",
+      "genericInstrument": "trombone",
+      "description": "Trombone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Trombone/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Trombone",
+        "shortName": "Tbn.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 57
+      }
+    },
+    {
+      "uri": "brass/trumpet/premium",
+      "alias": ["brass/trumpet", "brass"],
+      "group": ["brass", "jazz"],
+      "name": "Trumpet",
+      "genericInstrument": "trumpet_cornet",
+      "description": "Trumpet. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Trumpet/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Trumpet",
+        "shortName": "Tpt.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": -2,
+        "midiPatch": 56
+      }
+    },
+    {
+      "uri": "brass/tuba/premium",
+      "alias": "brass/tuba",
+      "name": "Tuba",
+      "genericInstrument": "tuba",
+      "description": "Tuba. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Tuba/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Tuba",
+        "shortName": "Tuba",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 58
+      }
+    },
+    {
+      "uri": "brass/baritone",
+      "alias": "brass/euphonium",
+      "name": "Baritone",
+      "description": "Baritone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Baritone/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Baritone",
+        "shortName": "Baritone",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 58
+      }
+    },
+    {
+      "uri": "strings/bass/upright/premium",
+      "alias": [
+        "strings/bass/upright",
+        "strings/contrabass",
+        "strings/viol/bass",
+        "strings/bass"
+      ],
+      "group": ["bowed strings", "jazz"],
+      "name": "Upright Bass",
+      "genericInstrument": "double_bass",
+      "description": "Upright Bass. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/UprightBass/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bass",
+        "shortName": "Bs.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "octaveShift": 1,
+        "transposition": 0,
+        "midiPatch": 33
+      }
+    },
+    {
+      "uri": "percussion/pitched/vibraphone/premium",
+      "alias": [
+        "percussion/pitched/vibraphone",
+        "percussion/pitched/metallophone"
+      ],
+      "group": ["pitched percussion", "jazz"],
+      "name": "Vibraphone",
+      "genericInstrument": "vibraphone",
+      "description": "Vibraphone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Vibes/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Vibraphone",
+        "shortName": "Vib.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 12
+      }
+    },
+    {
+      "uri": "strings/viola/ensemble/premium",
+      "alias": "strings/viola/ensemble",
+      "group": "bowed strings",
+      "name": "Viola (Section)",
+      "genericInstrument": "viola",
+      "description": "Viola Section. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Violas/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Viola",
+        "shortName": "Va.",
+        "staff": {
+          "clef": {
+            "sign": "C",
+            "note": "C4",
+            "line": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 41
+      }
+    },
+    {
+      "uri": "strings/viola/solo/premium",
+      "alias": ["strings/viola/solo", "strings/viol/alto", "strings/viola"],
+      "group": "bowed strings",
+      "name": "Viola (Solo)",
+      "genericInstrument": "viola",
+      "description": "Solo Viola. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SoloViola/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Viola",
+        "shortName": "Va.",
+        "staff": {
+          "clef": {
+            "sign": "C",
+            "note": "C4",
+            "line": 2
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 41
+      }
+    },
+    {
+      "uri": "strings/violin/ensemble/premium",
+      "alias": "strings/violin/ensemble",
+      "group": "bowed strings",
+      "name": "Violin (Section)",
+      "genericInstrument": "violin",
+      "description": "Violin Section. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Violins/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Violin",
+        "shortName": "Vn.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 40
+      }
+    },
+    {
+      "uri": "strings/violin/solo/premium",
+      "alias": ["strings/violin/solo", "strings/violin", "strings"],
+      "group": "bowed strings",
+      "name": "Violin (Solo)",
+      "genericInstrument": "violin",
+      "description": "Solo Violin. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/SoloViolin/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Violin",
+        "shortName": "Vn.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 40
+      }
+    },
+    {
+      "uri": "percussion/pitched/xylophone/premium",
+      "alias": "percussion/pitched/xylophone",
+      "group": "pitched percussion",
+      "name": "Xylophone",
+      "genericInstrument": "xylophone",
+      "description": "Xylophone. Sample by SONiVOX. Copyright © 2010 Sonic Network, Inc. http://www.sonivoxmi.com.",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 44100,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "premium/Xylophone/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Xylophone",
+        "shortName": "Xyl.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "octaveShift": 0,
+        "transposition": 0,
+        "midiPatch": 13
+      }
+    },
+    {
+      "classic": true,
+      "uri": "strings/bass/acoustic/basic",
+      "group": "bowed strings",
+      "name": "Basic Double Bass",
+      "genericInstrument": "double_bass",
+      "description": "Acoustic bass sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/acousticBass/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Double Bass",
+        "shortName": "D.B.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "octaveShift": 1,
+        "midiPatch": 32
+      }
+    },
+    {
+      "classic": true,
+      "uri": "percussion/drums/basicStandard",
+      "name": "Basic Drums (Standard)",
+      "genericInstrument": "drum_set",
+      "group": "unpitched percussion",
+      "description": "Drum Kit (Percussive Arts Society Layout from Basic library)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/drumkitStd/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Drums",
+        "shortName": "Dr.",
+        "staff": {
+          "clef": {
+            "sign": "percussion2",
+            "percussionMap": "PAS"
+          }
+        }
+      }
+    },
+    {
+      "classic": true,
+      "uri": "percussion/drums/standard/basic",
+      "name": "Basic Drums (Berklee)",
+      "genericInstrument": "drum_set",
+      "group": "unpitched percussion",
+      "description": "Drum Kit (Berklee Layout from Basic library)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/drumkit/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Drums",
+        "shortName": "Dr.",
+        "staff": {
+          "clef": {
+            "sign": "percussion",
+            "note": "D3",
+            "line": 2
+          }
+        }
+      }
+    },
+    {
+      "classic": true,
+      "uri": "strings/bass/electric/basic",
+      "group": "plucked strings",
+      "name": "Basic Electric Bass",
+      "genericInstrument": "bass_guitar",
+      "description": "Electric bass (synthesized)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/electricBass/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Electric Bass",
+        "shortName": "E.Bs.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "octaveShift": 1,
+        "midiPatch": 34
+      }
+    },
+    {
+      "classic": true,
+      "uri": "woodwind/flute/basic",
+      "name": "Basic Flute",
+      "genericInstrument": "flute",
+      "description": "Flute sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicFlute/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Flute",
+        "shortName": "Fl.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 73
+      }
+    },
+    {
+      "classic": true,
+      "uri": "brass/trumpet/basic",
+      "name": "Basic Trumpet",
+      "genericInstrument": "trumpet_cornet",
+      "description": "Trumpet (from Basic library)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicTrumpet/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Trumpet",
+        "shortName": "Tpt.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": -2,
+        "midiPatch": 56
+      }
+    },
+    {
+      "classic": true,
+      "uri": "woodwind/clarinet/basic",
+      "name": "Basic Clarinet",
+      "genericInstrument": "clarinet",
+      "description": "Clarinet sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicClarinet/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Clarinet",
+        "shortName": "Cl.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": -2,
+        "midiPatch": 71
+      }
+    },
+    {
+      "classic": true,
+      "uri": "woodwind/oboe/basic",
+      "name": "Basic Oboe",
+      "genericInstrument": "oboe",
+      "description": "Oboe sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicOboe/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Oboe",
+        "shortName": "Ob.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 68
+      }
+    },
+    {
+      "classic": true,
+      "uri": "woodwind/bassoon/basic",
+      "description": "Bassoon sample (University of Iowa)",
+      "name": "Basic Bassoon",
+      "genericInstrument": "bassoon",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicBassoon/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Bassoon",
+        "shortName": "Bsn.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 70
+      }
+    },
+    {
+      "classic": true,
+      "uri": "woodwind/saxophone/soprano/basic",
+      "description": "Soprano saxophone",
+      "name": "Basic Soprano Sax",
+      "genericInstrument": "soprano_saxophone",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicSopranoSax/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Soprano Sax",
+        "shortName": "S.Sax.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": -2,
+        "midiPatch": 64
+      }
+    },
+    {
+      "classic": true,
+      "uri": "woodwind/saxophone/alto/basic",
+      "name": "Basic Alto Sax",
+      "genericInstrument": "alto_saxophone",
+      "description": "Alto saxophone",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicSopranoSax/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Alto Sax",
+        "shortName": "A.Sax.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": -9,
+        "midiPatch": 65
+      }
+    },
+    {
+      "classic": true,
+      "uri": "woodwind/saxophone/tenor/basic",
+      "name": "Basic Tenor Sax",
+      "genericInstrument": "tenor_saxophone",
+      "description": "Tenor saxophone",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicSopranoSax/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Tenor Sax",
+        "shortName": "T.Sax.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": -14,
+        "midiPatch": 66
+      }
+    },
+    {
+      "classic": true,
+      "uri": "brass/trombone/basic",
+      "name": "Basic Trombone",
+      "genericInstrument": "trombone",
+      "description": "Trombone sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicTrombone/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Trombone",
+        "shortName": "Tbn.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 57
+      }
+    },
+    {
+      "classic": true,
+      "uri": "strings/violin/basic",
+      "group": "bowed strings",
+      "name": "Basic Violin",
+      "genericInstrument": "violin",
+      "description": "Violin sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicViolin/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Violin",
+        "shortName": "Vn.",
+        "staff": {
+          "clef": {
+            "sign": "G"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 40
+      }
+    },
+    {
+      "classic": true,
+      "uri": "strings/viola/basic",
+      "group": "bowed strings",
+      "name": "Basic Viola",
+      "genericInstrument": "viola",
+      "description": "Viola sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicViola/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Viola",
+        "shortName": "Va.",
+        "staff": {
+          "clef": {
+            "sign": "C",
+            "note": "C4",
+            "line": 2
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 41
+      }
+    },
+    {
+      "classic": true,
+      "uri": "strings/cello/basic",
+      "group": "bowed strings",
+      "name": "Basic Cello",
+      "genericInstrument": "cello",
+      "description": "Cello sample (University of Iowa)",
+      "specification": {
+        "bitsPerSample": 16,
+        "sampleRate": 22050,
+        "channels": 1,
+        "type": "audio/x-wav",
+        "location": "basic/BasicCello/wav22mono/specification.xml"
+      },
+      "partDefaults": {
+        "name": "Violoncello",
+        "shortName": "Vc.",
+        "staff": {
+          "clef": {
+            "sign": "F"
+          }
+        },
+        "transposition": 0,
+        "midiPatch": 42
+      }
+    }
+  ],
+  "groups": [
+    "bowed strings",
+    "woodwind",
+    "brass",
+    "plucked strings",
+    "unpitched percussion",
+    "pitched percussion",
+    "vocal",
+    "keyboards",
+    "latin instruments",
+    "marching percussion",
+    "jazz"
+  ]
+}
