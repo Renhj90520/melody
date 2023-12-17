@@ -42532,7 +42532,6 @@ class NoteSet extends _value_notation__WEBPACK_IMPORTED_MODULE_10__["default"] {
     return pitch;
   }
   defaultBeamStart() {
-    debugger;
     if (this.grace) {
       if (!this.appoggiatura) {
         const nextGraceNote = this.nextGraceNote;
