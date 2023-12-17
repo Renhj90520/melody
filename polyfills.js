@@ -8,9 +8,9 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zone.js */ 64924);
+/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zone.js */ 88583);
 /* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(zone_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fs */ 22115);
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fs */ 49452);
 /* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_1__);
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
@@ -58,8 +58,8 @@ __webpack_require__.r(__webpack_exports__);
  */
  // Included with Angular CLI.
 window.global = window;
-global.Buffer = global.Buffer || (__webpack_require__(/*! buffer */ 13195).Buffer);
-global.process = global.process || __webpack_require__(/*! process */ 53217);
+global.Buffer = global.Buffer || (__webpack_require__(/*! buffer */ 93172).Buffer);
+global.process = global.process || __webpack_require__(/*! process */ 35736);
 global.__dirname = '/';
 const Helvetica = __webpack_require__(/*! pdfkit/js/data/Helvetica.afm */ 95805);
 
@@ -70,7 +70,7 @@ fs__WEBPACK_IMPORTED_MODULE_1___default().writeFileSync('data/Helvetica.afm', He
 
 /***/ }),
 
-/***/ 82173:
+/***/ 5343:
 /*!*****************************************!*\
   !*** ./node_modules/base64-js/index.js ***!
   \*****************************************/
@@ -184,7 +184,7 @@ function fromByteArray(uint8) {
 
 /***/ }),
 
-/***/ 13195:
+/***/ 93172:
 /*!**************************************!*\
   !*** ./node_modules/buffer/index.js ***!
   \**************************************/
@@ -201,8 +201,8 @@ function fromByteArray(uint8) {
 
 
 
-const base64 = __webpack_require__(/*! base64-js */ 82173);
-const ieee754 = __webpack_require__(/*! ieee754 */ 54920);
+const base64 = __webpack_require__(/*! base64-js */ 5343);
+const ieee754 = __webpack_require__(/*! ieee754 */ 48461);
 const customInspectSymbol = typeof Symbol === 'function' && typeof Symbol['for'] === 'function' // eslint-disable-line dot-notation
 ? Symbol['for']('nodejs.util.inspect.custom') // eslint-disable-line dot-notation
 : null;
@@ -1930,7 +1930,7 @@ function BufferBigIntNotDefined() {
 
 /***/ }),
 
-/***/ 54920:
+/***/ 48461:
 /*!***************************************!*\
   !*** ./node_modules/ieee754/index.js ***!
   \***************************************/
@@ -2013,14 +2013,14 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 /***/ }),
 
-/***/ 22115:
+/***/ 49452:
 /*!**********************************************!*\
   !*** ./node_modules/pdfkit/js/virtual-fs.js ***!
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-/* provided dependency */ var Buffer = __webpack_require__(/*! buffer */ 13195)["Buffer"];
+/* provided dependency */ var Buffer = __webpack_require__(/*! buffer */ 93172)["Buffer"];
 
 
 var VirtualFileSystem = /*#__PURE__*/function () {
@@ -2076,7 +2076,7 @@ module.exports = virtualFs;
 
 /***/ }),
 
-/***/ 53217:
+/***/ 35736:
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
   \*****************************************/
@@ -2260,7 +2260,7 @@ process.umask = function () {
 
 /***/ }),
 
-/***/ 64924:
+/***/ 88583:
 /*!***********************************************!*\
   !*** ./node_modules/zone.js/fesm2015/zone.js ***!
   \***********************************************/
@@ -5005,4 +5005,3 @@ module.exports = "StartFontMetrics 4.1\r\nComment Copyright (c) 1985, 1987, 1989
 /******/ var __webpack_exports__ = (__webpack_exec__(7435));
 /******/ }
 ]);
-//# sourceMappingURL=polyfills.js.map
