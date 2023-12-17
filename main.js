@@ -49889,7 +49889,7 @@ class NoteEditorService {
   }
   loadScore() {
     // return this.http.get('/assets/source/note-flight-score.json');
-    return this.http.get('/assets/source/basic.json');
+    return this.http.get('assets/source/basic.json');
   }
   open(el, info) {
     this.operationRef = this.operationOverlayService.open(el, info);
@@ -50208,7 +50208,7 @@ ChangeKeySignatureComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf, _angular_forms__WEBPACK_IMPORTED_MODULE_3__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_3__.NgModel, ng_zorro_antd_modal__WEBPACK_IMPORTED_MODULE_4__.NzModalComponent, ng_zorro_antd_modal__WEBPACK_IMPORTED_MODULE_4__.NzModalContentDirective, ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_5__.NzOptionComponent, ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_5__.NzSelectComponent, ng_zorro_antd_button__WEBPACK_IMPORTED_MODULE_6__.NzButtonComponent, ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_7__["ɵNzTransitionPatchDirective"], ng_zorro_antd_core_wave__WEBPACK_IMPORTED_MODULE_8__.NzWaveDirective],
-  styles: [".footer[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.footer[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n}\nnz-select[_ngcontent-%COMP%] {\n  text-align: left;\n}\n.keySignatures[_ngcontent-%COMP%] {\n  height: 93px;\n  position: relative;\n}\n.back[_ngcontent-%COMP%] {\n  width: 472px;\n  height: 83px;\n  background-size: 100% 100%;\n  background-position: top left;\n  background-repeat: no-repeat;\n}\n.sharp[_ngcontent-%COMP%] {\n  margin-bottom: 20px;\n}\n.sharp[_ngcontent-%COMP%]   .back[_ngcontent-%COMP%] {\n  background-image: url(/assets/images/sharpSignatures.svg);\n}\n.flat[_ngcontent-%COMP%]   .back[_ngcontent-%COMP%] {\n  background-image: url(/assets/images/flatSignatures.svg);\n  width: 479px;\n  background-position-x: -4px;\n}\n.items[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  display: flex;\n}\n.item[_ngcontent-%COMP%] {\n  font-size: 16px;\n  display: flex;\n  align-items: end;\n  justify-content: center;\n  margin-right: 5px;\n  cursor: pointer;\n  -webkit-user-select: none;\n          user-select: none;\n}\n.item.active[_ngcontent-%COMP%] {\n  background-color: rgba(128, 128, 255, 0.3);\n}\n.item[_ngcontent-%COMP%]:nth-child(1) {\n  width: 25px;\n  margin-left: 30px;\n}\n.item[_ngcontent-%COMP%]:nth-child(2) {\n  width: 28px;\n}\n.item[_ngcontent-%COMP%]:nth-child(3) {\n  width: 34px;\n}\n.item[_ngcontent-%COMP%]:nth-child(4) {\n  width: 44px;\n}\n.item[_ngcontent-%COMP%]:nth-child(5) {\n  width: 54px;\n}\n.item[_ngcontent-%COMP%]:nth-child(6) {\n  width: 65px;\n}\n.item[_ngcontent-%COMP%]:nth-child(7) {\n  width: 74px;\n}\n.item[_ngcontent-%COMP%]:nth-child(8) {\n  width: 85px;\n}"]
+  styles: [".footer[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.footer[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n}\nnz-select[_ngcontent-%COMP%] {\n  text-align: left;\n}\n.keySignatures[_ngcontent-%COMP%] {\n  height: 93px;\n  position: relative;\n}\n.back[_ngcontent-%COMP%] {\n  width: 472px;\n  height: 83px;\n  background-size: 100% 100%;\n  background-position: top left;\n  background-repeat: no-repeat;\n}\n.sharp[_ngcontent-%COMP%] {\n  margin-bottom: 20px;\n}\n.sharp[_ngcontent-%COMP%]   .back[_ngcontent-%COMP%] {\n  background-image: url('assets/images/sharpSignatures.svg');\n}\n.flat[_ngcontent-%COMP%]   .back[_ngcontent-%COMP%] {\n  background-image: url('assets/images/flatSignatures.svg');\n  width: 479px;\n  background-position-x: -4px;\n}\n.items[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  display: flex;\n}\n.item[_ngcontent-%COMP%] {\n  font-size: 16px;\n  display: flex;\n  align-items: end;\n  justify-content: center;\n  margin-right: 5px;\n  cursor: pointer;\n  -webkit-user-select: none;\n          user-select: none;\n}\n.item.active[_ngcontent-%COMP%] {\n  background-color: rgba(128, 128, 255, 0.3);\n}\n.item[_ngcontent-%COMP%]:nth-child(1) {\n  width: 25px;\n  margin-left: 30px;\n}\n.item[_ngcontent-%COMP%]:nth-child(2) {\n  width: 28px;\n}\n.item[_ngcontent-%COMP%]:nth-child(3) {\n  width: 34px;\n}\n.item[_ngcontent-%COMP%]:nth-child(4) {\n  width: 44px;\n}\n.item[_ngcontent-%COMP%]:nth-child(5) {\n  width: 54px;\n}\n.item[_ngcontent-%COMP%]:nth-child(6) {\n  width: 65px;\n}\n.item[_ngcontent-%COMP%]:nth-child(7) {\n  width: 74px;\n}\n.item[_ngcontent-%COMP%]:nth-child(8) {\n  width: 85px;\n}"]
 });
 
 /***/ }),
@@ -50750,7 +50750,7 @@ function OperationOverlayComponent_ng_container_1_div_1_ng_container_2_div_3_Tem
     const item_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵproperty"]("nzTooltipTitle", item_r10.tip)("nzTooltipPlacement", "topCenter")("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵpureFunction1"](4, _c1, item_r10.selected));
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵpureFunction1"](6, _c2, "url(/assets/images/icons/" + item_r10.icon + ".png)"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵpureFunction1"](6, _c2, "url(assets/images/icons/" + item_r10.icon + ".png)"));
   }
 }
 function OperationOverlayComponent_ng_container_1_div_1_ng_container_2_Template(rf, ctx) {
@@ -50943,7 +50943,7 @@ function OperationOverlayComponent_ng_template_2_li_2_ng_container_4_div_3_Templ
     const item_r35 = _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵproperty"]("nzTooltipTitle", item_r35.tip)("nzTooltipPlacement", "topCenter")("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵpureFunction1"](4, _c1, item_r35.selected));
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵpureFunction1"](6, _c2, "url(/assets/images/icons/" + item_r35.icon + ".png)"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵpureFunction1"](6, _c2, "url(assets/images/icons/" + item_r35.icon + ".png)"));
   }
 }
 function OperationOverlayComponent_ng_template_2_li_2_ng_container_4_Template(rf, ctx) {
@@ -54348,7 +54348,7 @@ class EditorFontsService {
         const filename = fontFile.filename;
         const bold = fontFile.type === 'bold' || fontFile.type === 'bolditalic';
         const italic = fontFile.type === 'italic' || fontFile.type === 'bolditalic';
-        const editorFont = new _editor_font__WEBPACK_IMPORTED_MODULE_0__["default"](fontFamily, '/assets/fonts/', filename, bold, italic, this.fallbackInfo, isFallback, this.http, () => {
+        const editorFont = new _editor_font__WEBPACK_IMPORTED_MODULE_0__["default"](fontFamily, 'assets/fonts/', filename, bold, italic, this.fallbackInfo, isFallback, this.http, () => {
           this.loadedCount++;
           if (this.loadedCount === fontsCount) {
             this.onFontsLoaded.emit();

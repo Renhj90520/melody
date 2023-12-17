@@ -27170,15 +27170,15 @@ nz-space-item {
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: "SourceSerifPro";
-  src: url('assets/fonts/SourceSerifPro-Regular.otf');
+  src: url('SourceSerifPro-Regular.otf');
 }
 @font-face {
   font-family: "SourceSansPro";
-  src: url('assets/fonts/SourceSansPro-Regular.otf');
+  src: url('SourceSansPro-Regular.otf');
 }
 @font-face {
   font-family: "NFIcons";
-  src: url('assets/fonts/NFIcons-Regular.woff2');
+  src: url('NFIcons-Regular.woff2');
 }
 body {
   height: 100vh;
